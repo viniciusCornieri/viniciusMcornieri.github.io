@@ -97,7 +97,7 @@ self.addEventListener('fetch', function(e) {
      */
     e.respondWith(
       caches.match(e.request).then(function(response) {
-        return fetch(e.request) || response;
+        return response || fetch(e.request) ;
       })
     );
   }
