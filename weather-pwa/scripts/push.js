@@ -21,7 +21,7 @@
 
 'use strict';
 
-const applicationServerPublicKey = 'BFLmNLwSS1Xt4WgP0b50FUM5fEQLtxtvZdH1UNu-efW5pADkn9oybraeJXnD9GROjVOgF7Ak5osc8zrne0JiqKg';
+const applicationServerPublicKey = 'BESTUciS__GFctAgn14Lbr-DbGOsu0Y6Cg4yUVDECj03chM-fpc4VdN8ALEkeW4QXtLEaUwd2rbR4sK-aUkiwLY';
 
 let isSubscribed = false;
 let swRegistration = null;
